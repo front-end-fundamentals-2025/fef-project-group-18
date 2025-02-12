@@ -2,9 +2,10 @@
     width: 80px;
 }
 
-ul{
+ul {
     list-style: none;
     display: flex;
+
 }
 
 header {
@@ -15,7 +16,6 @@ header {
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
 
 
 header h1 {
