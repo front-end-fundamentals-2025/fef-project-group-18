@@ -17,23 +17,6 @@ body {
     min-height: 100vh;
 }
 
-
-nav {
-    margin: 1rem 0;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;                                /* This ensures nav links wrap on smaller screens */
-    gap: 1rem;                                      /* This adds space between links */
-    padding: 0.5rem;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 1rem;
-    font-weight: bold;
-}
-
 nav a:hover {
     text-decoration: underline;
 }
@@ -48,18 +31,6 @@ nav a:hover {
     text-align: center;
 }
 
-header {
-    width: 100%;
-    background: #007bff;
-    color: white;
-    padding: 1rem 0;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-header h1 {
-    font-size: 2.5rem;
-}
 
 h2 {
     color: #007bff;
@@ -99,11 +70,13 @@ footer p {
         flex-direction: column;
     }
 
-    input, textarea {
-        width: 100%; 
+    input,
+    textarea {
+        width: 100%;
     }
 
-    button, .btn {
-        width: 100%; 
+    button,
+    .btn {
+        width: 100%;
     }
 }
