@@ -1,3 +1,4 @@
+/*
 main {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -22,4 +23,99 @@ main {
     background-color: violet;
     width: 100%;
     grid-area: z;
+}
+*/
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #0a0f24;
+    color: #ffffff;
+}
+
+main {
+    flex: 1;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #121829;
+}
+
+.logo img {
+    width: 90px; 
+    height: auto;
+    display: block;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #00d4ff;
+    text-decoration: none;
+}
+
+.auth-links a {
+    margin-left: 15px;
+    color: #00d4ff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    height: 43vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #00172d, #004080);
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00d4ff;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #121829;
+}
+
+.social-links a {
+    color: #00d4ff;
+    margin: 0 10px;
+    text-decoration: none;
 }

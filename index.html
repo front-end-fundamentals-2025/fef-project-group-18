@@ -5,33 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css\home.css">
-    <link rel="stylesheet" href="css\main.css">
+    <link rel="stylesheet" href="../css/home.css">
 </head>
 
 <body>
     <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="../images/logo,final.svg" alt="logotype, blue and purple gradient">
+            </a>
+        </div>
         <nav>
-            <a id="logo" href="index.html"><img src="images/logo,final.svg"
-                    alt="logotype, blue and purple gradiant"></a>
             <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_us.html">About Us</a></li>
                 <li><a href="products.html">Products</a></li>
-                <li><a href="about_us.html">About us</a></li>
-
-            </ul>
-            <ul>
-                <!--search-bar-->
-                <li><a href="account.html">Account</a></li>
-                <li><a href="cart.html">Cart</a></li>
             </ul>
         </nav>
+        <div class="auth-links">
+            <a href="login_signup.html">Login / Signup</a>
+            <a href="account.html">Account</a>
+        </div>
     </header>
     <main>
-        <!--image-->
-        <div class="area" id="a"></div>
-        <div class="area" id="b"></div>
+        <section class="hero" style="background-image: url('images/background.png'); background-size: cover; background-position: center;">
+            <h1>Welcome to the Ultimate Gaming Store</h1>
+            <p>Find the best gaming PCs and accessories here.</p>
+            <a href="products.html" class="btn">Shop Now</a>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <p>All rights reserved &copy; 2025</p>
+        <div class="social-links">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Email</a>
+        </div>
+    </footer>
 </body>
-
 </html>
