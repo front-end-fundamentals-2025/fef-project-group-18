@@ -41,16 +41,10 @@ main {
 }
 
 /* Header */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #121829;
-}
+
 
 .logo img {
-    width: 90px; 
+    width: 90px;
     height: auto;
     display: block;
 }

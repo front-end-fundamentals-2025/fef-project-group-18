@@ -2,6 +2,8 @@
 
 #logo img {
     width: 80px;
+    height: auto;
+    display: block;
 }
 
 ul {
@@ -9,6 +11,8 @@ ul {
     display: flex;
 
 }
+
+
 
 header {
     width: 100%;
@@ -39,4 +43,12 @@ nav a {
     text-decoration: none;
     margin: 0 1rem;
     font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
 }
