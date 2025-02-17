@@ -41,22 +41,6 @@ main {
 }
 
 /* Header */
-
-
-
-
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-nav ul li a {
-
-    text-decoration: none;
-}
-
 .auth-links a {
     margin-left: 15px;
     color: #00d4ff;
