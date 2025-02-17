@@ -43,11 +43,7 @@ main {
 /* Header */
 
 
-.logo img {
-    width: 90px;
-    height: auto;
-    display: block;
-}
+
 
 
 nav ul {
@@ -57,7 +53,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: #00d4ff;
+
     text-decoration: none;
 }
 
