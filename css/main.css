@@ -1,4 +1,9 @@
 /*this document is for things every page needs, like header and footer*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 #logo img {
     width: 80px;
@@ -11,7 +16,6 @@ ul {
     display: flex;
 
 }
-
 
 
 header {
