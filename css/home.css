@@ -80,16 +80,3 @@ main {
     font-weight: bold;
     border-radius: 5px;
 }
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #121829;
-}
-
-.social-links a {
-    color: #00d4ff;
-    margin: 0 10px;
-    text-decoration: none;
-}
