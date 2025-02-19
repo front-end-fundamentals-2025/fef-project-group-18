@@ -4,11 +4,12 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    text-align: center;
     background-color: #121829;
 }
 
 #logo img {
-    width: 80px;
+    width: 100px;
     height: auto;
     display: block;
 }
@@ -17,7 +18,7 @@ nav ul {
     display: flex;
     list-style: none;
     gap: 20px;
-    align-items: center;
+
     justify-content: space-between;
 
 }
