@@ -1,11 +1,19 @@
 /* Header */
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;                        /* Centers the navigation */
     align-items: center;
-    padding: 20px;
-    text-align: center;
+    padding: 35px 40px;
     background-color: #121829;
+    position: relative;                             /* Needed for absolute positioning */
+}
+
+/* Logo */
+#logo {
+    position: absolute;
+    left: 20px;                                     /* Keeps it on the left side */
+    top: 50%;
+    transform: translateY(-50%);                    /* Ensures it's centered vertically */
 }
 
 #logo img {
@@ -14,16 +22,28 @@ header {
     display: block;
 }
 
+/* Navigation Menu */
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 nav ul {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 30px;                                      /* Adds spacing between nav items */
+    margin: 0;
+    padding: 0;
+}
 
-    justify-content: space-between;
-
+nav ul li {
+    list-style: none;
 }
 
 nav ul li a {
     color: #ffffff;
     text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
 }
