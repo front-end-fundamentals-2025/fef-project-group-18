@@ -9,9 +9,11 @@
 }
 
 body {
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;                     /* This ensures header is at the top, content in middle, footer at bottom */
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;                                  /* This makes sure page fills full height */
     background-image: url('images/background.png');
     background-size: cover;
     background-position: center;
@@ -118,4 +120,63 @@ button:hover {
     color: #00aaff;
     font-weight: bold;
     text-decoration: none;
+}
+
+/* This will center the login box properly */
+main {
+    flex: 1;                    /* Pushes footer down */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* This should ensure footer sticks to the bottom */
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #121829;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* Space between logo and nav */
+    align-items: center;
+    width: 100%;
+    padding: 20px 50px;
+    background-color: #121829;
+    position: fixed; /* Keeps it at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Style the logo */
+.logo {
+    width: 100px; /* Adjust size as needed */
+}
+
+/* Center navigation */
+nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+/* Navigation links */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px; /* Spacing between links */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
 }
