@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "name": "Gaming PC - Beast Mode",
+        "price": 1499.99,
+        "rating": 4.8,
+        "reviews": 120,
+        "description": "High-performance gaming PC with RTX 4090 and Intel i9 processor.",
+        "category": "PC",
+        "image": "images/image1.png"
+    },
+    {
+        "id": 2,
+        "name": "Gaming Keyboard - RGB Pro",
+        "price": 129.99,
+        "rating": 4.5,
+        "reviews": 85,
+        "description": "Mechanical gaming keyboard with customizable RGB lighting.",
+        "category": "Accessories",
+        "image": "images/image2.png"
+    },
+    {
+        "id": 3,
+        "name": "Gaming Mouse - Ultra Precision",
+        "price": 79.99,
+        "rating": 4.7,
+        "reviews": 95,
+        "description": "Ergonomic gaming mouse with high-DPI sensor and extra buttons.",
+        "category": "Accessories",
+        "image": "images/image3.png"
+    },
+    {
+        "id": 4,
+        "name": "Gaming Monitor - 240Hz Ultra HD",
+        "price": 399.99,
+        "rating": 4.9,
+        "reviews": 150,
+        "description": "27-inch gaming monitor with 240Hz refresh rate and 1ms response time.",
+        "category": "Monitor",
+        "image": "images/image4.png"
+    },
+    {
+        "id": 5,
+        "name": "Gaming Headset - Surround Sound X",
+        "price": 99.99,
+        "rating": 4.6,
+        "reviews": 110,
+        "description": "Immersive gaming headset with 7.1 surround sound and noise cancellation.",
+        "category": "Accessories",
+        "image": "images/image5.png"
+    },
+    {
+        "id": 6,
+        "name": "Gaming Chair - Ergonomic Racer",
+        "price": 249.99,
+        "rating": 4.8,
+        "reviews": 130,
+        "description": "Comfortable ergonomic gaming chair with adjustable armrests and lumbar support.",
+        "category": "Furniture",
+        "image": "images/image6.png"
+    },
+    {
+        "id": 7,
+        "name": "Gaming Desk - LED Setup",
+        "price": 299.99,
+        "rating": 4.7,
+        "reviews": 90,
+        "description": "Spacious gaming desk with LED lighting and cable management.",
+        "category": "Furniture",
+        "image": "images/image7.png"
+    },
+    {
+        "id": 8,
+        "name": "Gaming PC - Stealth Edition",
+        "price": 1299.99,
+        "rating": 4.7,
+        "reviews": 105,
+        "description": "Powerful gaming PC with RTX 3080 and AMD Ryzen 9 processor.",
+        "category": "PC",
+        "image": "images/image8.png"
+    },
+    {
+        "id": 9,
+        "name": "Gaming Keyboard - Speed Type",
+        "price": 99.99,
+        "rating": 4.6,
+        "reviews": 80,
+        "description": "High-speed mechanical keyboard with anti-ghosting technology.",
+        "category": "Accessories",
+        "image": "images/image9.png"
+    },
+    {
+        "id": 10,
+        "name": "Gaming Mouse - Lightning Reflex",
+        "price": 69.99,
+        "rating": 4.5,
+        "reviews": 70,
+        "description": "Ultra-light gaming mouse with adjustable DPI and ergonomic design.",
+        "category": "Accessories",
+        "image": "images/image10.png"
+    },
+    {
+        "id": 11,
+        "name": "Gaming Monitor - 165Hz QHD",
+        "price": 349.99,
+        "rating": 4.8,
+        "reviews": 115,
+        "description": "32-inch QHD gaming monitor with 165Hz refresh rate and HDR support.",
+        "category": "Monitor",
+        "image": "images/image11.png"
+    },
+    {
+        "id": 12,
+        "name": "Gaming Laptop - Ultimate Speed",
+        "price": 1999.99,
+        "rating": 4.9,
+        "reviews": 140,
+        "description": "High-end gaming laptop with RTX 4080 and Intel i9 processor.",
+        "category": "Laptop",
+        "image": "images/image12.png"
+    },
+    {
+        "id": 13,
+        "name": "Gaming Mouse Pad - XXL Precision",
+        "price": 29.99,
+        "rating": 4.7,
+        "reviews": 75,
+        "description": "Extra-large gaming mouse pad with anti-slip surface.",
+        "category": "Accessories",
+        "image": "images/image13.png"
+    },
+    {
+        "id": 14,
+        "name": "Gaming Router - High-Speed 5GHz",
+        "price": 179.99,
+        "rating": 4.6,
+        "reviews": 85,
+        "description": "Dual-band gaming router with low-latency optimization.",
+        "category": "Networking",
+        "image": "images/image14.png"
+    },
+    {
+        "id": 15,
+        "name": "VR Headset - Ultimate Immersion",
+        "price": 399.99,
+        "rating": 4.8,
+        "reviews": 120,
+        "description": "Advanced VR headset with 4K resolution and motion tracking.",
+        "category": "VR",
+        "image": "images/image15.png"
+    }
+]
