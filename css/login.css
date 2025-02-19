@@ -14,7 +14,7 @@ body {
     justify-content: space-between;                     /* This ensures header is at the top, content in middle, footer at bottom */
     align-items: center;
     min-height: 100vh;                                  /* This makes sure page fills full height */
-    background-image: url('images/background.png');
+    background-image: url('../images/background.png');
     background-size: cover;
     background-position: center;
 }
@@ -139,6 +139,10 @@ footer {
     background-color: #121829;
 }
 
+/* Hey Wilma, we could add the part below this in header-fotter.css as well but this would create some disbalance 
+between login page and other pages. This won't be the best practice but if we want to make it better, 
+and just add it in header-fotter.css we have to tweak the login.html a bit by creating a sepearate class like 
+"<body class="login-page">" and then make sure to make proper changes.*/
 header {
     display: flex;
     justify-content: space-between; /* Space between logo and nav */
@@ -152,9 +156,9 @@ header {
     z-index: 1000;
 }
 
-/* Style the logo */
+/* Styles the logo */
 .logo {
-    width: 100px; /* Adjust size as needed */
+    width: 100px;                   /* Adjust size as needed */
 }
 
 /* Center navigation */
@@ -168,7 +172,7 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 30px; /* Spacing between links */
+    gap: 30px;                      /* Spacing between links */
 }
 
 nav ul li {
