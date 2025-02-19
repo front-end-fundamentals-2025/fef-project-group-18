@@ -7,60 +7,63 @@
     <title>Login Page</title>
     <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/styles.css">
+    <!--<link rel="stylesheet" href="css/header-fotter.css"> :
+not working on this page with the othe css, everything beacomes vertical idk why-->
+
+
 
 </head>
 
 <body>
     <header>
-        <nav>
-            <a id="logo" href="index.html">
-                <img src="../images/logo,final.svg" alt="logotype, blue and purple gradient">
-            </a>
-            <ul>
-                <li>
+        <header>
+            <nav>
+                <a id="logo" href="index.html">
+                    <img src="images/logo,final.svg" alt="logotype, blue and purple gradient">
+                </a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="login.html">Login / Signup</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="login-container">
+            <div class="login-box">
+                <h2>Login</h2>
 
-                </li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="about.html">About us</a></li>
-                <li><a href="account.html">Account</a></li>
-                <li><a href="cart.html">Cart</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="login-container">
-        <div class="login-box">
-            <h2>Login</h2>
+                <form>
+                    <div class="input-group">
+                        <input type="email" placeholder="Email" required>
+                        <span class="icon">👤</span>
+                    </div>
 
-            <form>
-                <div class="input-group">
-                    <input type="email" placeholder="Email" required>
-                    <span class="icon">👤</span>
-                </div>
+                    <div class="input-group">
+                        <input type="password" id="password" placeholder="Password" required>
+                        <span class="icon">🔒</span>
+                    </div>
 
-                <div class="input-group">
-                    <input type="password" id="password" placeholder="Password" required>
-                    <span class="icon">🔒</span>
-                </div>
+                    <div class="options">
+                        <label>
+                            <input type="checkbox"> Remember me
+                        </label>
+                        <a href="#">Forgot password?</a>
+                    </div>
 
-                <div class="options">
-                    <label>
-                        <input type="checkbox"> Remember me
-                    </label>
-                    <a href="#">Forgot password?</a>
-                </div>
+                    <button type="submit">Login</button>
 
-                <button type="submit">Login</button>
-
-                <p class="register-text">Don't have an account? <a href="#">Register</a></p>
-            </form>
+                    <p class="register-text">Don't have an account? <a href="#">Register</a></p>
+                </form>
+            </div>
         </div>
-    </div>
 
 
-    <footer>
-        <p>&copy; 2025 Game Forge. All rights reserved.</p>
-    </footer>
-    <script src="js/script.js"></script>
+        <footer>
+            <p>&copy; 2025 Game Forge. All rights reserved.</p>
+        </footer>
+        <script src="js/script.js"></script>
 </body>
 
 </html>

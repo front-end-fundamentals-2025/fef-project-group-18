@@ -12,36 +12,6 @@ main {
     flex: 1;
 }
 
-/* Header */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #121829;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-nav ul li a {
-    color: #00d4ff;
-    text-decoration: none;
-}
-
-.auth-links a {
-    margin-left: 15px;
-    color: #00d4ff;
-    text-decoration: none;
-}
 
 /* Hero Section */
 .hero {
