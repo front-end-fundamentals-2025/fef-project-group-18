@@ -18,7 +18,10 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   paymentEliment.addEventListener("click", function (event) {
     contentElement.innerHTML = `
-    <h3>Payment Methods</h3>
+    <h3>Payment Methods</h3>   
+   
+    <img class="paylogo" src="../images/logo_mastercard.png" width="60px">
+
       <form> 
       
         <div>
@@ -40,7 +43,6 @@ document.addEventListener("DOMContentLoaded", () => {
         <button type="submit" id="submit">Submit</button>
     </form>
 
-    <img src="../images/logo_mastercard.png">
   `;
   });
   settingsElementtwo.addEventListener("click", function (event) {
