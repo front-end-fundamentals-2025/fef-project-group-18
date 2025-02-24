@@ -1,0 +1,22 @@
+li {
+    list-style: none;
+    margin: 20px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 250px auto auto auto;
+    grid-template-areas: "set con con con";
+}
+
+#settings {
+    grid-area: set;
+}
+
+#content {
+    grid-area: con;
+    width: 100%;
+    height: 200px;
+}
