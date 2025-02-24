@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     contentElement.innerHTML = `
     <h3>Payment Methods</h3>
       <form> 
+      
         <div>
             <label for="cardnr">Your card number</label>
             <input type="text" id="cardnr">
@@ -37,10 +38,9 @@ document.addEventListener("DOMContentLoaded", () => {
     
         <br>
         <button type="submit" id="submit">Submit</button>
-
-
     </form>
 
+    <img src="../images/logo_mastercard.png">
   `;
   });
   settingsElementtwo.addEventListener("click", function (event) {
