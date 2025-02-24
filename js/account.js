@@ -20,21 +20,22 @@ document.addEventListener("DOMContentLoaded", () => {
     contentElement.innerHTML = `
     <h3>Payment Methods</h3>   
    
-    <h4>Mastercard:</h4>
+    <img class="paylogo" src="../images/logo_mastercard.png" width="60px">
+
       <form> 
       
         <div>
-            <label for="cardnr">Your card number:</label>
+            <label for="cardnr">Your card number</label>
             <input type="text" id="cardnr">
         </div>
         <br>
         <div>
-            <label for="valid-thru">Valid thru:</label>
+            <label for="valid-thru">Valid thru</label>
             <input type="text" id="valid-thru">
         </div>
         <br>
         <div>
-            <label for="cvc">CVC:</label>
+            <label for="cvc">CVC</label>
             <input type="text" id="cvc">
         </div>
     
@@ -42,14 +43,12 @@ document.addEventListener("DOMContentLoaded", () => {
         <button type="submit" id="submit">Submit</button>
     </form>
 
-    <img class="paylogo" src="../images/logo_mastercard.png" width="60px">
-    <img class="paylogo" src="../images/swish_logo.png" width="50px">
-
   `;
   });
   settingsElementtwo.addEventListener("click", function (event) {
     contentElement.innerHTML = `
     <h3>General settings</h3>
+    
   `;
   });
   customerElement.addEventListener("click", function (event) {
