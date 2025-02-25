@@ -51,6 +51,9 @@ document.addEventListener("DOMContentLoaded", () => {
   settingsElementtwo.addEventListener("click", function (event) {
     contentElement.innerHTML = `
     <h3>General settings</h3>
+        <img  src="../images/night.png" width="50px">
+         <img  src="../images/day.png" width="50px">
+
     
   `;
   });
