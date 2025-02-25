@@ -1,19 +1,23 @@
 /* Header */
 header {
     display: flex;
-    justify-content: center;                        /* Centers the navigation */
+    justify-content: center;
+    /* Centers the navigation */
     align-items: center;
     padding: 35px 40px;
     background-color: #121829;
-    position: relative;                             /* Needed for absolute positioning */
+    position: relative;
+    /* Needed for absolute positioning */
 }
 
 /* Logo */
 #logo {
     position: absolute;
-    left: 20px;                                     /* Keeps it on the left side */
+    left: 20px;
+    /* Keeps it on the left side */
     top: 50%;
-    transform: translateY(-50%);                    /* Ensures it's centered vertically */
+    transform: translateY(-50%);
+    /* Ensures it's centered vertically */
 }
 
 #logo img {
@@ -32,7 +36,8 @@ nav {
 nav ul {
     display: flex;
     list-style: none;
-    gap: 30px;                                      /* Adds spacing between nav items */
+    gap: 30px;
+    /* Adds spacing between nav items */
     margin: 0;
     padding: 0;
 }
@@ -47,3 +52,11 @@ nav ul li a {
     font-size: 18px;
     font-weight: bold;
 }
+
+/*light mode things*/
+/*test*/
+body.light-mode {
+    background-color: white;
+}
+
+/*light mode things*/
