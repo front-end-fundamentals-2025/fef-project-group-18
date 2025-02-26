@@ -42,15 +42,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     <img class="paylogo" src="../images/logo_mastercard.png" width="60px">
     <img class="paylogo" src="../images/swish_logo.png" width="50px">
+
   `;
   });
   settingsElementtwo.addEventListener("click", function (event) {
     contentElement.innerHTML = `
     <h3>General settings</h3>
-
-        <h4>Light / Dark mode:</h4>
-      <img id="night" src="../images/night.svg" width="50px">
-      <img id="day" src="../images/day.svg" width="50px">
   `;
   });
   customerElement.addEventListener("click", function (event) {

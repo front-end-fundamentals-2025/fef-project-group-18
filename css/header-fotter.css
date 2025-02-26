@@ -57,6 +57,18 @@ nav ul li a {
 /*test*/
 body.light-mode {
     background-color: white;
+    color: black;
+    /* Ensure text is visible */
 }
+
+nav ul li a {
+    color: white;
+}
+
+body.light-mode nav ul li a {
+    color: black;
+    /* Change text color in light mode */
+}
+
 
 /*light mode things*/
