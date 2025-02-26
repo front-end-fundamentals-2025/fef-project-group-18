@@ -2,9 +2,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const lightModeButton = document.getElementById("day");
   const darkModeButton = document.getElementById("night");
 
-  if (localStorage.getItem("lightMode") === "enabled") {
+  if (localStorage.getItem("ligthMode") === "enabled") {
     enableLightMode();
-  }
+}
 
   lightModeButton.addEventListener("click", () => {
     enableLightMode();
