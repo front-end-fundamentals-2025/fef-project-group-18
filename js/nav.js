@@ -11,21 +11,27 @@ async function loadProducts() {
         products.forEach(product => {
             const productElement = document.createElement("div");
             productElement.classList.add("product");
+
+            // Add a clickable link to product details page
             productElement.innerHTML = `
-                <img src="${product.image}" alt="${product.name}">
-                <h3>${product.name}</h3>
+                <a href="details.html?id=${product.id}" class="product-link">
+                    <img src="${product.image}" alt="${product.name}">
+                    <h3>${product.name}</h3>
+                </a>
                 <p>Price: $${product.price.toFixed(2)}</p>
                 <p>Rating: ${product.rating} ⭐ (${product.reviews} reviews)</p>
                 <button onclick="addToCart(${product.id}, '${product.name}', ${product.price}, '${product.image}', '${product.description}', ${product.rating}, ${product.reviews})">
                     Add to Cart
                 </button>
             `;
+
             productContainer.appendChild(productElement);
         });
     } catch (error) {
         console.error("Error loading products:", error);
     }
 }
+
 
 function addToCart(id, name, price, image, description, rating, reviews) {
     let cart = JSON.parse(localStorage.getItem("cart")) || [];
