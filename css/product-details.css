@@ -8,74 +8,85 @@
     font-family: 'Poppins', sans-serif;
 }
 
+img {
+    width: 40vw;
+    margin: 15px;
+    margin-left: 8vw;
+    margin-right: 12vw;
+
+}
+
 body {
-    background-color: #121829;
+    background-color: #354571;
     color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     min-height: 100vh;
-    padding-top: 100px;
 }
 
-.container {
-    width: 80%;
-    max-width: 900px;
-    background: rgba(255, 255, 255, 0.1);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+/*grid things*/
+.product-container {
+    display: grid;
+    grid-template-columns: auto auto 40vw;
+    grid-template-areas:
+        "image image info"
+    ;
 }
 
-.product-header {
-    display: flex;
+#product-image {
+    grid-area: image;
+}
+
+#product-info {
+    grid-area: info;
+}
+
+/*grid things*/
+
+#product-header {
     align-items: center;
     gap: 20px;
 }
 
-.product-header img {
+#product-header img {
     width: 200px;
     height: 200px;
     border-radius: 10px;
     object-fit: cover;
 }
 
-.product-info {
+#product-info {
     flex-grow: 1;
 }
 
-.product-title {
+#product-title {
     font-size: 24px;
     font-weight: 600;
+    margin-top: 2vw;
 }
 
-.product-price {
+#product-price {
     font-size: 20px;
     font-weight: bold;
     color: #00aaff;
     margin: 10px 0;
 }
 
-.product-description {
+#price {
+    margin-top: 15vw;
+}
+
+#product-description {
     margin-top: 15px;
     font-size: 16px;
 }
 
-.reviews {
-    margin-top: 20px;
+.reviews-section {
+    margin-top: 3vw;
+    margin-bottom: 5vw;
 }
 
-.review {
-    margin-bottom: 10px;
-    padding: 10px;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 5px;
-}
-
-.buy-now {
+#buy-now {
     display: block;
-    width: 100%;
+    width: 50%;
     padding: 12px;
     margin-top: 20px;
     text-align: center;
@@ -89,6 +100,6 @@ body {
     transition: 0.3s;
 }
 
-.buy-now:hover {
+#buy-now:hover {
     background: #0088cc;
 }

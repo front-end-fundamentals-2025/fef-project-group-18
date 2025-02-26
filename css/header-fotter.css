@@ -53,6 +53,14 @@ nav ul li a {
     font-weight: bold;
 }
 
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #121829;
+}
+
+
 /*light mode things*/
 /*test*/
 body.light-mode {
@@ -69,6 +77,5 @@ body.light-mode nav ul li a {
     color: black;
     /* Change text color in light mode */
 }
-
 
 /*light mode things*/

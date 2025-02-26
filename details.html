@@ -21,6 +21,8 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="products.html">Products</a></li>
+                <li><a href="login.html">Login / Signup</a></li>
+
                 <li><a href="account.html">Account</a></li>
                 <li><a href="cart.html">Cart</a></li>
             </ul>
@@ -33,19 +35,20 @@
             <div class="product-info">
                 <h1 id="product-title"></h1>
                 <p id="product-description"></p>
-                <p><strong>Price:</strong> $<span id="product-price"></span></p>
+                <p id="price"><strong>Price:</strong> $<span id="product-price"></span></p>
                 <p><strong>Rating:</strong> <span id="product-rating"></span> ⭐</p>
                 <button id="buy-now">Buy Now</button>
+                <div class="reviews-section">
+                    <h2>Reviews</h2>
+                    <ul id="reviews-list"></ul>
+                    <h3>Leave a Review</h3>
+                    <textarea id="review-text" placeholder="Write your review..."></textarea>
+                    <button id="submit-review">Submit Review</button>
+                </div>
             </div>
         </div>
 
-        <div class="reviews-section">
-            <h2>Reviews</h2>
-            <ul id="reviews-list"></ul>
-            <h3>Leave a Review</h3>
-            <textarea id="review-text" placeholder="Write your review..."></textarea>
-            <button id="submit-review">Submit Review</button>
-        </div>
+
     </main>
 
     <footer>
