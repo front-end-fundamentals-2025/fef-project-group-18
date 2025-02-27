@@ -40,6 +40,7 @@ nav ul {
     /* Adds spacing between nav items */
     margin: 0;
     padding: 0;
+    border-style: none;
 }
 
 nav ul li {
@@ -60,7 +61,6 @@ footer {
     background-color: #121829;
 }
 
-
 /*light mode things*/
 /*test*/
 body.light-mode {
@@ -71,11 +71,6 @@ body.light-mode {
 
 nav ul li a {
     color: white;
-}
-
-body.light-mode nav ul li a {
-    color: black;
-    /* Change text color in light mode */
 }
 
 /*light mode things*/

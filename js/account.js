@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   settingsElementOne.addEventListener("click", function (event) {
     contentElement.innerHTML = `
+    <section class="eve">
     <h3>Account settings</h3>
      <form id="account-settings-form">
         <label for="password">Change Password:</label>
@@ -14,10 +15,12 @@ document.addEventListener("DOMContentLoaded", () => {
         
         <button type="submit">Save</button>
       </form>
+       </section>
   `;
   });
   paymentEliment.addEventListener("click", function (event) {
     contentElement.innerHTML = `
+    <section class="eve">
     <h3>Payment Methods</h3>   
    
     <h4>Mastercard:</h4>   
@@ -42,19 +45,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
     <img class="paylogo" src="../images/logo_mastercard.png" width="60px">
     <img class="paylogo" src="../images/swish_logo.png" width="50px">
+    </section>
 
   `;
   });
   settingsElementtwo.addEventListener("click", function (event) {
     contentElement.innerHTML = `
+    <section class="eve">
     <h3>General settings</h3>
+     </section>
   `;
   });
   customerElement.addEventListener("click", function (event) {
     contentElement.innerHTML = `
+    <section class="eve">
     <h3>Customer support</h3>
     <p> If you need to contact us regarding any returns, shipment problems or any othe issues please contact us at:</p> 
         <p>gameforge@gmail.com</p>
+         </section>
   `;
   });
 });

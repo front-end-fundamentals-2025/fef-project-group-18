@@ -1,26 +1,71 @@
-li {
+#settings li {
     list-style: none;
-    margin: 20px;
+    border-radius: 5px;
+    margin-top: 25px;
     margin-left: 0;
     margin-right: 0;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(54, 54, 120);
+    width: 250px;
+    padding: 2vw;
 }
 
-main {
-    display: grid;
-    grid-template-columns: 250px auto auto auto;
-    grid-template-areas: "set con con con";
+.eve {
+    font-size: 10px;
+    font-weight: bold;
+    background-color: rgb(54, 54, 120);
+    width: 250px;
+    padding: 2vw;
 }
 
-#settings {
-    grid-area: set;
-}
 
-#content {
-    grid-area: con;
-    width: 100%;
-    height: 200px;
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 main {
     min-height: 500px;
 }
+
+#modes {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+/*grid things*/
+main {
+    display: grid;
+    grid-template-columns: 250px 250px auto auto;
+    grid-template-areas:
+        "set set con con";
+}
+
+#settings {
+    grid-area: set;
+    min-height: 577px;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    padding: 0px;
+    align-items: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 0px;
+    background-color: white;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+#content {
+    grid-area: con;
+    background-color: white;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+/*grid things stop*/
