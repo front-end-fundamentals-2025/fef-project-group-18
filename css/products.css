@@ -22,10 +22,12 @@ body {
 }
 
 .product img {
-    max-width: 100%;
-    height: auto;
+    width: 175px;                       /* This will set a fixed width */
+    height: 175px;                      /* This will set a fixed height */
+    object-fit: cover;                  /* This should ensure that images fill the space while maintaining aspect */
     border-radius: 5px;
 }
+
 
 button {
     background-color: #00bfff;
