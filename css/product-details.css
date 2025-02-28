@@ -8,12 +8,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-img {
-    width: 40vw;
-    margin: 15px;
-    margin-left: 8vw;
-    margin-right: 12vw;
-}
+
 
 body {
     background-color: #354571;
@@ -32,6 +27,11 @@ body {
 
 #product-image {
     grid-area: image;
+    width: 40vw;
+    margin: 15px;
+    margin-left: 8vw;
+    margin-right: 12vw;
+
 }
 
 #product-info {
