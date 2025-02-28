@@ -5,7 +5,7 @@ header {
     /* Centers the navigation */
     align-items: center;
     padding: 35px 40px;
-    background-color: #121829;
+    background-color: #0b1f57;
     position: relative;
     /* Needed for absolute positioning */
 }
@@ -58,7 +58,7 @@ nav ul li a {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #121829;
+    background-color: #0b1f57;
 }
 
 /*light mode things*/
