@@ -1,0 +1,92 @@
+/* General Page Layout */
+html, body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #1b2348;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ensure main content expands properly */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Cart Container */
+#cart-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #121829;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Cart Items Styling */
+#cart-items {
+    flex: 2;
+    padding: 20px;
+}
+
+/* Order Summary */
+#cart-summary {
+    flex: 1;
+    background-color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    margin-left: 20px;
+}
+
+#cart-summary h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #00d4ff;
+    padding-bottom: 10px;
+}
+
+#cart-total {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+/* Checkout Button */
+#checkout-btn {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    background-color: #00d4ff;
+    color: #000;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#checkout-btn:hover {
+    background-color: #008fb3;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
