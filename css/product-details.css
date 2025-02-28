@@ -24,9 +24,9 @@ body {
 /*grid things*/
 .product-container {
     display: grid;
-    grid-template-columns: auto auto 40vw;
+    grid-template-columns: auto 40vw;
     grid-template-areas:
-        "image image info"
+        "image info"
     ;
 }
 
@@ -104,7 +104,8 @@ body {
 }
 
 .spinner {
-    display: none;                                      /* Hidden by default */
+    display: none;
+    /* Hidden by default */
     width: 50px;
     height: 50px;
     border: 5px solid rgba(255, 255, 255, 0.3);
@@ -118,6 +119,11 @@ body {
 }
 
 @keyframes spin {
-    0% { transform: translate(-50%, -50%) rotate(0deg); }
-    100% { transform: translate(-50%, -50%) rotate(360deg); }
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
 }
