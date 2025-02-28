@@ -4,7 +4,7 @@
         "name": "Gaming PC - Beast Mode",
         "price": 1499.99,
         "rating": 4.8,
-        "reviews": 120,
+        "reviews": 80,
         "description": "High-performance gaming PC with RTX 4090 and Intel i9 processor.",
         "category": "PC",
         "image": "images/image1.png"
@@ -34,7 +34,7 @@
         "name": "Gaming Monitor - 240Hz Ultra HD",
         "price": 399.99,
         "rating": 4.9,
-        "reviews": 150,
+        "reviews": 90,
         "description": "27-inch gaming monitor with 240Hz refresh rate and 1ms response time.",
         "category": "Monitor",
         "image": "images/image4.png"
@@ -44,7 +44,7 @@
         "name": "Gaming Headset - Surround Sound X",
         "price": 99.99,
         "rating": 4.6,
-        "reviews": 110,
+        "reviews": 75,
         "description": "Immersive gaming headset with 7.1 surround sound and noise cancellation.",
         "category": "Accessories",
         "image": "images/image5.png"
@@ -54,7 +54,7 @@
         "name": "Gaming Chair - Ergonomic Racer",
         "price": 249.99,
         "rating": 4.8,
-        "reviews": 130,
+        "reviews": 93,
         "description": "Comfortable ergonomic gaming chair with adjustable armrests and lumbar support.",
         "category": "Furniture",
         "image": "images/image6.png"
@@ -74,7 +74,7 @@
         "name": "Gaming PC - Stealth Edition",
         "price": 1299.99,
         "rating": 4.7,
-        "reviews": 105,
+        "reviews": 43,
         "description": "Powerful gaming PC with RTX 3080 and AMD Ryzen 9 processor.",
         "category": "PC",
         "image": "images/image8.png"
@@ -104,7 +104,7 @@
         "name": "Gaming Monitor - 165Hz QHD",
         "price": 349.99,
         "rating": 4.8,
-        "reviews": 115,
+        "reviews": 35,
         "description": "32-inch QHD gaming monitor with 165Hz refresh rate and HDR support.",
         "category": "Monitor",
         "image": "images/image11.png"
@@ -114,7 +114,7 @@
         "name": "Gaming Laptop - Ultimate Speed",
         "price": 1999.99,
         "rating": 4.9,
-        "reviews": 140,
+        "reviews": 67,
         "description": "High-end gaming laptop with RTX 4080 and Intel i9 processor.",
         "category": "Laptop",
         "image": "images/image12.png"
@@ -144,7 +144,7 @@
         "name": "VR Headset - Ultimate Immersion",
         "price": 399.99,
         "rating": 4.8,
-        "reviews": 120,
+        "reviews": 12,
         "description": "Advanced VR headset with 4K resolution and motion tracking.",
         "category": "VR",
         "image": "images/image15.png"
