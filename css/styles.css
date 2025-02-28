@@ -17,12 +17,12 @@ main {
     height: 43vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
-    text-align: center;
+    text-align: right;
     background-size: cover;
     background-position: center;
-    padding: 100px 20px;
+    padding: 110px 40px;
     background: linear-gradient(to right, #00172d, #004080);
 }
 
