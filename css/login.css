@@ -14,7 +14,6 @@ body {
     justify-content: space-between;                     /* This ensures header is at the top, content in middle, footer at bottom */
     align-items: center;
     min-height: 100vh;                                  /* This makes sure page fills full height */
-    background-image: url('../images/background.png');
     background-size: cover;
     background-position: center;
 }
@@ -28,7 +27,7 @@ body {
 }
 
 .login-box {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
     padding: 2rem;
     width: 350px;
@@ -54,7 +53,7 @@ h2 {
     padding: 12px;
     padding-left: 40px;
     border-radius: 25px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 3px solid rgba(255, 255, 255, 0.3);
     background: transparent;
     color: white;
     font-size: 14px;
