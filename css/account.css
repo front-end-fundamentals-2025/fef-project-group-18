@@ -1,3 +1,7 @@
+body {
+    height: 800px;
+}
+
 #settings li {
     list-style: none;
     margin-top: 25px;
@@ -5,22 +9,29 @@
     margin-right: 0;
     font-size: 25px;
     font-weight: bold;
-    background-color: #091842;
+    background-color: #000000;
     width: 250px;
     padding: 2vw;
     border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#settings li:hover {
+    background-color: #b453ff;
+    color: #fff;
 }
 
 .eve {
     font-size: 15px;
     font-weight: bold;
-    background-color: #091842;
+    background-color: #000000;
     width: 250px;
     padding: 2vw;
-    margin: 10px;
+    margin: 20px;
     border-radius: 5px;
-    width: 90%;
-    height: 86%;
+    width: 87%;
+    height: 83%;
 
 }
 
@@ -37,18 +48,14 @@
 
 a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 }
 
-main {
-    min-height: 500px;
-}
 
 #modes {
     display: flex;
     margin-top: 10px;
     margin-bottom: 10px;
-
     justify-content: center;
 }
 
@@ -62,31 +69,31 @@ main {
 
 #settings {
     grid-area: set;
-    min-height: 577px;
+    min-height: 585px;
     width: 70%;
     display: flex;
     flex-direction: column;
     border-style: solid;
-    border-color: rgb(0, 0, 0);
     padding: 0px;
     align-items: center;
     margin-left: 5vw;
     margin-right: 5vw;
     margin-top: 0px;
-    background-color: white;
-    color: rgb(255, 255, 255);
+    background-color: #121829;
+    color: #ffffff;
     border-radius: 5px;
-    border-color: white;
+    border-color: #121829;
+
 }
 
 #content {
     grid-area: con;
-    background-color: white;
+    background-color: #121829;
     color: rgb(255, 255, 255);
     border-radius: 5px;
     width: 80%;
     height: 97%;
-    border-color: white;
+    border-color: #121829;
 }
 
 /*grid things stop*/

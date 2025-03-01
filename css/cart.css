@@ -1,10 +1,10 @@
 /* General Page Layout */
-html, body {
+html,
+body {
     font-family: Arial, sans-serif;
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #1b2348;
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -20,6 +20,15 @@ main {
     padding: 20px;
 }
 
+img {
+    width: 300px;
+    margin: 5px;
+}
+
+.cart-actions {
+    margin: 6px;
+}
+
 /* Cart Container */
 #cart-container {
     display: flex;
@@ -30,6 +39,7 @@ main {
     width: 80%;
     max-width: 900px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
 }
 
 /* Cart Items Styling */
@@ -52,7 +62,7 @@ main {
 #cart-summary h2 {
     font-size: 22px;
     margin-bottom: 10px;
-    border-bottom: 2px solid #00d4ff;
+    border-bottom: 2px solid #b453ff;
     padding-bottom: 10px;
 }
 
@@ -72,19 +82,20 @@ main {
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    border-radius: 5px;
     transition: 0.3s;
+    border-radius: 5px;
+
 }
 
 #checkout-btn:hover {
-    background-color: #008fb3;
+    background-color: #b453ff;
     color: #fff;
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #000;
+    background-color: #091842;
     color: #ffffff;
     position: relative;
     bottom: 0;

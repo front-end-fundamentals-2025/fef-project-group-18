@@ -11,9 +11,11 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;                     /* This ensures header is at the top, content in middle, footer at bottom */
+    justify-content: space-between;
+    /* This ensures header is at the top, content in middle, footer at bottom */
     align-items: center;
-    min-height: 100vh;                                  /* This makes sure page fills full height */
+    min-height: 100vh;
+    /* This makes sure page fills full height */
     background-size: cover;
     background-position: center;
 }
@@ -123,7 +125,8 @@ button:hover {
 
 /* This will center the login box properly */
 main {
-    flex: 1;                    /* Pushes footer down */
+    flex: 1;
+    /* Pushes footer down */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,7 +138,7 @@ footer {
     width: 100%;
     text-align: center;
     padding: 20px;
-    background-color: #121829;
+    background-color: #091842;
 }
 
 /* Hey Wilma, we could add the part below this in header-fotter.css as well but this would create some disbalance 
@@ -144,12 +147,14 @@ and just add it in header-fotter.css we have to tweak the login.html a bit by cr
 "<body class="login-page">" and then make sure to make proper changes.*/
 header {
     display: flex;
-    justify-content: space-between; /* Space between logo and nav */
+    justify-content: space-between;
+    /* Space between logo and nav */
     align-items: center;
     width: 100%;
     padding: 20px 50px;
     background-color: #121829;
-    position: fixed; /* Keeps it at the top */
+    position: fixed;
+    /* Keeps it at the top */
     top: 0;
     left: 0;
     z-index: 1000;
@@ -157,7 +162,8 @@ header {
 
 /* Styles the logo */
 .logo {
-    width: 100px;                   /* Adjust size as needed */
+    width: 100px;
+    /* Adjust size as needed */
 }
 
 /* Center navigation */
@@ -171,7 +177,8 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 30px;                      /* Spacing between links */
+    gap: 30px;
+    /* Spacing between links */
 }
 
 nav ul li {
