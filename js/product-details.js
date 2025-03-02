@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", async function () {
                 productImage.src = product.image;
                 productTitle.textContent = product.name;
                 productDescription.textContent = product.description;
-                productPrice.textContent = `$${product.price.toFixed(2)}`;
+                productPrice.textContent = `${product.price.toFixed(2)}`;
                 productRating.textContent = `${product.rating} ⭐ (${product.reviews} reviews)`;
 
                 buyNowButton.addEventListener("click", function () {
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", async function () {
                     window.location.href = "cart.html";
                 });
 
-                productContainer.style.display = "block"; // Showing the content after loading
+                productContainer.style.display = "flex"; // Showing the content after loading
             } else {
                 productContainer.innerHTML = "<p>Product not found.</p>";
             }
