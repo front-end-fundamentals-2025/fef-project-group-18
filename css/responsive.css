@@ -89,8 +89,29 @@ nav ul {
 
 @media (max-width: 768px) {
     .product-container {
-        grid-template-columns: repeat(2, 1fr);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
+
+    #product-image {
+        margin-bottom: 20px; /* Space between image and details */
+    }
+
+    #product-info {
+        text-align: center;
+        max-width: 90%;
+    }
+
+    #buy-now {
+        display: block;
+        margin: 10px auto;          /* Centers the button */
+        width: 80%;                 /* Adjust width to align with text */
+        max-width: 300px;           /* Prevents it from being too wide */
+        text-align: center;
+    }
+    
 }
 
 @media (max-width: 480px) {
