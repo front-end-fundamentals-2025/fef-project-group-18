@@ -66,7 +66,7 @@ nav ul {
     }
 }
 
-.product-container {
+.product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     /* This will allow wrapping */
@@ -74,49 +74,65 @@ nav ul {
     padding: 20px;
 }
 
-/* Adjust grid layout for different screen sizes */
+/* Adjusting the grid layout for different screen sizes */
 @media (max-width: 1200px) {
-    .product-container {
+    .product-grid {
         grid-template-columns: repeat(4, 1fr);
     }
 }
 
 @media (max-width: 992px) {
-    .product-container {
+    .product-grid {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media (max-width: 768px) {
-    .product-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 15px;
+    }
+}
+
+.product-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px;
+    max-width: 1500px;
+    margin: auto;
+}
+
+/* Ensure the image and info section take equal space */
+#product-image {
+    width: 55%; 
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px; 
+}
+
+#product-info {
+    width: 100%;
+    text-align: left;
+}
+
+/* Responsive layout: Stack elements on smaller screens */
+@media (max-width: 768px) {
+    .product-details {
+        flex-direction: column; 
+        text-align: center; 
     }
 
-    #product-image {
-        margin-bottom: 20px; /* Space between image and details */
-    }
-
+    #product-image,
     #product-info {
-        text-align: center;
-        max-width: 90%;
+        width: 100%; 
     }
 
     #buy-now {
-        display: block;
-        margin: 10px auto;          /* Centers the button */
-        width: 80%;                 /* Adjust width to align with text */
-        max-width: 300px;           /* Prevents it from being too wide */
-        text-align: center;
-    }
-    
-}
-
-@media (max-width: 480px) {
-    .product-container {
-        grid-template-columns: repeat(1, 1fr);
+        width: 100%; 
+        max-width: 300px;
+        margin: 10px auto;
     }
 }
 
