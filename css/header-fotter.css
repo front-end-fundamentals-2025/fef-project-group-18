@@ -64,13 +64,17 @@ footer {
 /*light mode things*/
 /*test*/
 body.light-mode {
-    background-color: white;
-    color: black;
-    /* Ensure text is visible */
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, #a396ff, #dbe2fc);
+    ;
 }
 
-nav ul li a {
-    color: white;
+body.light-mode header {
+    background-color: #8f80ff;
+}
+
+body.light-mode footer {
+    background-color: #6454de;
 }
 
 /*light mode things*/

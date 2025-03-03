@@ -30,7 +30,7 @@ body {
 }
 
 button {
-    background-color: #00bfff;
+    background-color: #b453ff;
     color: #fff;
     border: none;
     padding: 10px;
@@ -40,7 +40,7 @@ button {
 }
 
 button:hover {
-    background-color: #b453ff;
+    background-color: #00bfff;
 }
 
 footer {
@@ -59,4 +59,8 @@ h2 {
 a {
     text-decoration: none;
     color: white;
+}
+
+body.light-mode .product {
+    background-color: rgba(100, 84, 222, 0.556);
 }

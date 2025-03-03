@@ -100,14 +100,14 @@ button {
     border-radius: 25px;
     font-size: 16px;
     font-weight: bold;
-    color: black;
-    background: white;
+    color: rgb(255, 255, 255);
+    background: #00aaff;
     cursor: pointer;
     transition: 0.3s;
 }
 
 button:hover {
-    background: #00aaff;
+    background: #b453ff;
     color: white;
 }
 
@@ -189,4 +189,21 @@ nav ul li a {
     text-decoration: none;
     color: white;
     font-size: 18px;
+}
+
+body.light-mode .login-box {
+    background-color: rgba(100, 84, 222, 0.556);
+}
+
+body.light-mode button {
+    background-color: #b453ff;
+}
+
+body.light-mode button:hover {
+    background-color: #00aaff;
+}
+
+body.light-mode #link2 {
+    color: #cba2eb;
+
 }

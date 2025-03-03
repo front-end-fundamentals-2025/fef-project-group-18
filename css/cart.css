@@ -101,3 +101,12 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+body.light-mode #cart-container {
+    background-color: rgba(100, 84, 222, 0.556);
+}
+
+body.light-mode #cart-summary {
+    background-color: rgb(100, 84, 222);
+    color: #fff;
+}

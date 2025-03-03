@@ -40,7 +40,7 @@ main {
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #00d4ff;
+    background-color: #b453ff;
     color: #000;
     text-decoration: none;
     font-weight: bold;
@@ -51,6 +51,11 @@ main {
 }
 
 .btn:hover {
-    background-color: #b453ff;
+    background-color: #00d4ff;
     color: #fff;
+}
+
+body.light-mode .btn {
+    color: rgb(255, 255, 255);
+
 }

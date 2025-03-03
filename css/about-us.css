@@ -29,6 +29,7 @@ body {
 .hero h1 {
     font-size: 36px;
     margin-bottom: 10px;
+
 }
 
 
@@ -65,4 +66,8 @@ body {
 .btn:hover {
     background-color: #b453ff;
     color: #fff;
+}
+
+body.light-mode .hero {
+    background-color: #44389e;
 }
