@@ -26,6 +26,13 @@ header {
     display: block;
 }
 
+#modes {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
 /* Navigation Menu */
 nav {
     display: flex;
