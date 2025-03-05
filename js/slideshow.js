@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     const images = [
         "../images/comp1.png",
-        "../images/comp2.png",
-        "../images/comp3.png",
+        "../images/comp1.2.png",
+        "../images/comp.1.3.png"
     ];
 
     const heroSection = document.querySelector(".hero");
