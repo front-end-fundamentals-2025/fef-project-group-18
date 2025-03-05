@@ -89,7 +89,7 @@ nav ul {
 
 @media (max-width: 768px) {
     .product-grid {
-        grid-template-columns: repeat(2, 1fr); 
+        grid-template-columns: repeat(2, 1fr);
         gap: 15px;
     }
 }
@@ -106,31 +106,31 @@ nav ul {
 
 /* Ensure the image and info section take equal space */
 #product-image {
-    width: 55%; 
+    width: 55%;
     max-width: 400px;
     height: auto;
-    border-radius: 10px; 
+    border-radius: 10px;
 }
 
 #product-info {
-    width: 100%;
+    width: 60%;
     text-align: left;
 }
 
 /* Responsive layout: Stack elements on smaller screens */
 @media (max-width: 768px) {
     .product-details {
-        flex-direction: column; 
-        text-align: center; 
+        flex-direction: column;
+        text-align: center;
     }
 
     #product-image,
     #product-info {
-        width: 100%; 
+        width: 100%;
     }
 
     #buy-now {
-        width: 100%; 
+        width: 100%;
         max-width: 300px;
         margin: 10px auto;
     }
@@ -150,8 +150,8 @@ footer {
 
 @media (max-width: 768px) {
     .hero {
-        align-items: center;  
-        text-align: center;   
-        padding: 80px 20px;   
+        align-items: center;
+        text-align: center;
+        padding: 80px 20px;
     }
 }

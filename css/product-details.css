@@ -30,9 +30,8 @@ body {
 }
 
 #product-image {
-    width: 400px;
+    width: 500px;
     /* Adjusting the size */
-    max-width: 100%;
     border-radius: 10px;
     object-fit: cover;
     margin: 15px;
@@ -46,9 +45,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #091842;
+    border-radius: 5px;
+    padding: 15px;
+    padding-left: 20px;
 }
 
-/*grid things*/
+/*grid things end*/
 
 #product-header {
     align-items: center;
@@ -106,6 +109,10 @@ body {
     border-radius: 25px;
     cursor: pointer;
     transition: 0.3s;
+}
+
+body.light-mode #product-info {
+    background-color: rgb(100, 84, 222);
 }
 
 #buy-now:hover {
