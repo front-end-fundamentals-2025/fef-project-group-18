@@ -5,6 +5,7 @@ header nav {
     padding: 10px 20px;
     flex-wrap: wrap;
     position: relative;
+    z-index: 1000;
 }
 
 /* Ensure logo doesn’t shrink */
@@ -45,6 +46,7 @@ nav ul {
         background: #1a1a1a;
         padding: 10px 0;
         text-align: center;
+        z-index: 1001;
     }
 
     nav ul.show-menu {
