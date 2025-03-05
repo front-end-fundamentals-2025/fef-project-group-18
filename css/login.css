@@ -93,7 +93,7 @@ h2 {
     color: #00aaff;
 }
 
-button {
+#button1 {
     width: 100%;
     padding: 12px;
     border: none;
@@ -106,7 +106,7 @@ button {
     transition: 0.3s;
 }
 
-button:hover {
+#button1:hover {
     background: #b453ff;
     color: white;
 }
@@ -141,10 +141,6 @@ footer {
     background-color: #091842;
 }
 
-/* Hey Wilma, we could add the part below this in header-fotter.css as well but this would create some disbalance 
-between login page and other pages. This won't be the best practice but if we want to make it better, 
-and just add it in header-fotter.css we have to tweak the login.html a bit by creating a sepearate class like 
-"<body class="login-page">" and then make sure to make proper changes.*/
 header {
     display: flex;
     justify-content: space-between;
@@ -195,11 +191,11 @@ body.light-mode .login-box {
     background-color: rgba(100, 84, 222, 0.556);
 }
 
-body.light-mode button {
+body.light-mode #button1 {
     background-color: #b453ff;
 }
 
-body.light-mode button:hover {
+body.light-mode #button1:hover {
     background-color: #00aaff;
 }
 
