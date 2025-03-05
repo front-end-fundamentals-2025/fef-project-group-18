@@ -36,6 +36,9 @@ body {
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    margin-bottom: 15vw;
+    margin-top: 5vw;
+
 }
 
 h2 {
