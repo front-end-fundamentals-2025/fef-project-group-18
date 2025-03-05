@@ -27,6 +27,7 @@ header {
 }
 
 #modes {
+    margin: 0px;
     display: flex;
     margin-top: 10px;
     margin-bottom: 10px;

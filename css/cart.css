@@ -20,11 +20,6 @@ main {
     padding: 20px;
 }
 
-img {
-    width: 300px;
-    margin: 5px;
-}
-
 .cart-actions {
     margin: 6px;
 }
@@ -46,6 +41,13 @@ img {
 #cart-items {
     flex: 2;
     padding: 20px;
+}
+
+#cart-items img {
+    flex: 2;
+    padding: 20px;
+    width: 300px;
+    margin: 5px;
 }
 
 /* Order Summary */
