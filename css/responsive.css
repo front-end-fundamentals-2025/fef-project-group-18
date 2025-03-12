@@ -34,6 +34,14 @@ nav ul {
     padding: 10px;
 }
 
+.show-menu {
+    background-color: #091842;
+}
+
+body.light-mode .show-menu {
+    background-color: #8f80ff;
+}
+
 /* Mobile Navigation */
 @media (max-width: 992px) {
     nav ul {

@@ -29,7 +29,7 @@ body {
     border-radius: 5px;
 }
 
-button {
+.product-container button {
     background-color: #b453ff;
     color: #fff;
     border: none;
@@ -39,7 +39,7 @@ button {
     margin-top: 10px;
 }
 
-button:hover {
+.product-container button:hover {
     background-color: #00bfff;
 }
 
