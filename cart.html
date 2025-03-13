@@ -39,18 +39,26 @@
         </section>
     </header>
 
-    <main>
+    <main id="cart-content">
         <h1>Your Shopping Cart</h1>
         <div id="cart-container">
             <div id="cart-items"></div>
             <div id="cart-summary">
                 <h2>Order Summary</h2>
                 <p id="cart-total">Total: $0.00</p>
-                <button id="checkout-btn">Proceed to Checkout</button>
+                <a href="#checkout-modal" id="checkout-btn">Proceed to Checkout</a>
             </div>
         </div>
     </main>
 
+    <div id="checkout-modal">
+        <div class="modal-content">
+            <h2>🎉 Congratulations! 🎉</h2>
+            <p>Your product is on its way 🚀</p>
+            <span class="thumbs-up">👍</span>
+            <button id="back-to-shop" onclick="clearCartAndRedirect()">Back to Shop</button>
+        </div>
+    </div>
 
     <footer>
         <div class="footer-container">
