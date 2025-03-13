@@ -316,3 +316,34 @@ footer {
         padding: 80px 20px;
     }
 }
+
+/* Responsive Styles for Checkout Modal (Animation) */
+@media (max-width: 768px) {
+    #checkout-modal {
+        padding: 10px;
+    }
+
+    #checkout-modal:target ~ footer {
+        display: none;
+    }
+
+    .modal-content {
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+        border-radius: 8px;
+        background-color: #121212;
+    }
+
+    .thumbs-up {
+        font-size: 2.5rem;
+        margin: 15px 0;
+    }
+
+    #back-to-shop {
+        width: 100%;
+        font-size: 16px;
+        padding: 12px;
+        border-radius: 8px;
+    }
+}
