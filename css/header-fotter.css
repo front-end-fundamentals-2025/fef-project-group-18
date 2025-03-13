@@ -64,9 +64,81 @@ nav ul li a {
 
 /* Footer */
 footer {
+    color: white;
+    padding: 40px 0;
     text-align: center;
-    padding: 20px;
+    width: 100%;
+    flex-shrink: 0;
     background-color: #091842;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1100px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+/* Footer Columns */
+.footer-column {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.footer-column h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #00aaff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin: 8px 0;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: #00aaff;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons a img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.1);
+}
+
+/* Bottom Footer Text */
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ddd;
 }
 
 /*light mode things*/
