@@ -9,7 +9,6 @@ body {
     min-height: 600px;
 }
 
-
 /* Hero Section */
 .hero {
     min-height: 515px;
@@ -29,9 +28,7 @@ body {
 .hero h1 {
     font-size: 36px;
     margin-bottom: 10px;
-
 }
-
 
 .hero p {
     font-size: 18px;
@@ -60,7 +57,6 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
-
 }
 
 .btn:hover {

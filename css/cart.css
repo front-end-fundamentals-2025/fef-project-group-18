@@ -10,7 +10,7 @@ body {
     flex-direction: column;
 }
 
-/* Ensure main content expands properly */
+/* This ensures main content expands properly */
 main {
     flex: 1;
     display: flex;
@@ -34,7 +34,6 @@ main {
     width: 80%;
     max-width: 900px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-
 }
 
 /* Cart Items Styling */
@@ -86,7 +85,6 @@ main {
     cursor: pointer;
     transition: 0.3s;
     border-radius: 5px;
-
 }
 
 #checkout-btn:hover {

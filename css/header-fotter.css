@@ -1,23 +1,24 @@
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 /* Header */
 header {
     display: flex;
     justify-content: center;
-    /* Centers the navigation */
     align-items: center;
     padding: 35px 40px;
     background-color: #091842;
     position: relative;
-    /* Needed for absolute positioning */
 }
 
 /* Logo */
 #logo {
     position: absolute;
     left: 20px;
-    /* Keeps it on the left side */
     top: 50%;
     transform: translateY(-50%);
-    /* Ensures it's centered vertically */
 }
 
 #logo img {
@@ -45,7 +46,6 @@ nav ul {
     display: flex;
     list-style: none;
     gap: 30px;
-    /* Adds spacing between nav items */
     margin: 0;
     padding: 0;
     border-style: none;
@@ -156,5 +156,4 @@ body.light-mode header {
 body.light-mode footer {
     background-color: #6454de;
 }
-
 /*light mode things*/

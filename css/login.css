@@ -12,10 +12,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* This ensures header is at the top, content in middle, footer at bottom */
     align-items: center;
     min-height: 100vh;
-    /* This makes sure page fills full height */
     background-size: cover;
     background-position: center;
 }
@@ -128,7 +126,6 @@ h2 {
 /* This will center the login box properly */
 main {
     flex: 1;
-    /* Pushes footer down */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,7 +158,6 @@ header {
 /* Styles the logo */
 .logo {
     width: 100px;
-    /* Adjust size as needed */
 }
 
 /* Center navigation */
@@ -176,7 +172,6 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 30px;
-    /* Spacing between links */
 }
 
 nav ul li {
@@ -203,5 +198,4 @@ body.light-mode #button1:hover {
 
 body.light-mode #link2 {
     color: #cba2eb;
-
 }

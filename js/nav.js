@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    loadProducts(); // Only loads products, not the cart
+    loadProducts(); // This will only load products, not the cart
 });
 
 async function loadProducts() {
@@ -12,7 +12,7 @@ async function loadProducts() {
             const productElement = document.createElement("div");
             productElement.classList.add("product");
 
-            // Add a clickable link to product details page
+            // Adding a clickable link to product details page
             productElement.innerHTML = `
                 <a href="details.html?id=${product.id}" class="product-link">
                     <img src="${product.image}" alt="${product.name}">
@@ -45,7 +45,7 @@ function addToCart(id, name, price, image, description, rating, reviews) {
     
     localStorage.setItem("cart", JSON.stringify(cart));
 
-    // Show confirmation message
+    // This shows confirmation message
     const messageBox = document.createElement("div");
     messageBox.classList.add("cart-message");
     messageBox.textContent = "The item you selected is added to your cart!";

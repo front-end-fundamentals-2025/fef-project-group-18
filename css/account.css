@@ -42,7 +42,6 @@ body {
 .eve h3 {
     font-size: 25px;
     margin-top: 5px;
-
 }
 
 a {
@@ -76,7 +75,6 @@ main {
     border-radius: 5px;
     border-color: #121829;
     margin-top: 4vw;
-
 }
 
 #content {
@@ -109,4 +107,16 @@ body.light-mode .eve {
 body.light-mode #content {
     background-color: rgba(100, 84, 222, 0.556);
     border-color: rgba(100, 84, 222, 0);
+}
+
+/* This fixes for double vertical scrolling issue */
+html, body {
+    overflow-x: hidden; 
+    overflow-y: auto; 
+    height: 100%; 
+}
+
+main {
+    overflow-y: auto !important;
+    height: auto !important;
 }
