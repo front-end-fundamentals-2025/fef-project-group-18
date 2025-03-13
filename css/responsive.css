@@ -172,14 +172,72 @@ nav ul li a {
     }
 }
 
+/* Responsive styles for account page */
+@media (max-width: 992px) {
+    main {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "set"
+            "con";
+        justify-content: center;
+    }
+
+    #settings {
+        width: 100%;
+        min-height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    #settings li {
+        width: auto;
+        padding: 10px 15px;
+        font-size: 18px;
+        margin: 5px;
+        text-align: center;
+    }
+
+    #content {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    #settings {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    #settings li {
+        width: 80%;
+        text-align: center;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .eve {
+        width: 100%;
+        padding: 15px;
+        margin: 0 auto;
+    }
+}
+
 /* Footer Responsiveness */
 footer {
     text-align: center;
-    padding: 25px;
+    padding: 20px;
     background-color: #091842;
     color: white;
     width: 100%;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .footer-container {
