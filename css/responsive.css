@@ -66,6 +66,15 @@ nav ul li a {
         display: block;
     }
 
+    .show-menu {
+        background-color: #091842;
+    }
+
+    body.light-mode .show-menu {
+        background-color: #8f80ff;
+    }
+
+
     nav ul {
         display: none;
         flex-direction: column;
