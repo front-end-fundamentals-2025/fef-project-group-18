@@ -177,10 +177,6 @@ footer {
         justify-content: center;
     }
 
-    body {
-        height: 600px;
-    }
-
     #settings {
         width: 100%;
         min-height: auto;
@@ -195,6 +191,7 @@ footer {
         border-color: rgba(0, 255, 255, 0);
     }
 
+
     #settings li {
         width: auto;
         padding: 10px 15px;
@@ -204,20 +201,11 @@ footer {
     }
 
     #content {
-        width: 90%;
-        min-height: 30vw;
-        margin-bottom: 80px;
-        padding: 15px;    
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 15px;
         background-color: rgba(255, 255, 255, 0);
         border-color: rgba(0, 255, 255, 0);
-    }
-
-    .eve {
-        padding: 5vw;
-    
-    }
-
-    footer {
-        margin-top: 50px;
     }
 }
