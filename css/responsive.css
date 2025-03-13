@@ -211,6 +211,17 @@ nav ul li a {
         background-color: rgba(255, 255, 255, 0);
         border-color: rgba(0, 255, 255, 0);
     }
+
+    body.light-mode #settings {
+        background-color: rgba(255, 255, 255, 0);
+        border-color: rgba(0, 255, 255, 0);
+    }
+
+    body.light-mode #content {
+        background-color: rgba(255, 255, 255, 0);
+        border-color: rgba(0, 255, 255, 0);
+    }
+
 }
 
 /* Footer Responsiveness */
