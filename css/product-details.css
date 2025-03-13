@@ -10,9 +10,18 @@
 
 
 body {
+    display: flex;
+    flex-direction: column;
     background-color: #354571;
     color: white;
     min-height: 100vh;
+}
+
+main {
+    flex-grow: 1; /* Pushes the footer down */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /*grid things*/
@@ -117,6 +126,15 @@ body.light-mode #product-info {
 
 #buy-now:hover {
     background: #0088cc;
+}
+
+.details-footer {
+    text-align: center;
+    padding: 20px;  
+    background-color: #091842;
+    margin-top: 20px; 
+    width: 100%;
+    flex-shrink: 0;
 }
 
 .spinner {
