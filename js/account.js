@@ -43,8 +43,8 @@ document.addEventListener("DOMContentLoaded", () => {
         <button type="submit" id="submit">Submit:</button>
     </form>
 
-    <img class="paylogo" src="../images/logo_mastercard.png" width="60px">
-    <img class="paylogo" src="../images/swish_logo.png" width="50px">
+    <img class="paylogo" src="images/logo_mastercard.png" width="60px">
+    <img class="paylogo" src="images/swish_logo.png" width="50px">
     </section>
 
   `;
